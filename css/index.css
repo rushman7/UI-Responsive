@@ -260,4 +260,59 @@ footer nav a {
     .bottom-content .text-container {
         width: 90%;
     }
+
+    .middle-content .boxes .box {
+        width: 22%;
+    }
+
+    .middle-content .boxes .box:nth-child(1) {
+        background: teal;
+        order: 3;
+    }
+    
+    .middle-content .boxes .box:nth-child(3) {
+        background: gold;
+        order: 1;
+    }
+    
+    .middle-content .boxes .box:nth-child(5) {
+        background: cadetblue;
+        order: 5;
+    }
+    
+    .middle-content .boxes .box:nth-child(7) {
+        background: coral;
+        order: 9;
+    }
+    
+    .middle-content .boxes .box:nth-child(9) {
+        background: crimson;
+        order: 7;
+    }
+
+    .middle-content .boxes .box:nth-child(2) {
+        background: forestgreen;
+        order: 2;
+    }
+    
+    .middle-content .boxes .box:nth-child(4) {
+        background: darkorchid;
+        order: 6;
+    }
+    
+    .middle-content .boxes .box:nth-child(6) {
+        background: hotpink;
+        order: 4;
+    }
+    
+    .middle-content .boxes .box:nth-child(8) {
+        background: indigo;
+        order: 8;
+    }
+    
+    .middle-content .boxes .box:nth-child(10) {
+        background: lawngreen;
+        display: none;
+    }
+    
 }
