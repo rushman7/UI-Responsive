@@ -164,9 +164,11 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .bottom-content .text-container {
+    width: 48%;
     padding-right: 4%;
 }
 
