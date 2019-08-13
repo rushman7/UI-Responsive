@@ -209,4 +209,24 @@ footer nav a {
         margin-top: 2rem;
         width: 100%;
     }
+
+    .middle-content .boxes .box:nth-child(1) {
+        background: teal;
+    }
+    
+    .middle-content .boxes .box:nth-child(3) {
+        background: gold;
+    }
+    
+    .middle-content .boxes .box:nth-child(5) {
+        background: cadetblue;
+    }
+    
+    .middle-content .boxes .box:nth-child(7) {
+        background: coral;
+    }
+    
+    .middle-content .boxes .box:nth-child(9) {
+        background: crimson;
+    }
 }
