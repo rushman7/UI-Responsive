@@ -67,8 +67,24 @@ p {
 }
 
 .container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
+}
+
+.nav {
+    margin: 2rem 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-image {
+    width: 100%;
 }
 
 .top-content {
